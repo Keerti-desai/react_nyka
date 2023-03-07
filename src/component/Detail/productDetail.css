@@ -1,0 +1,81 @@
+/*header section*/
+header{
+    height: 100px;
+    width: 100%;
+   /* border: 2px solid red;*/
+}
+
+/*Detail section*/
+
+#container{
+    width:90% ;
+    margin-left: 5%;
+    margin-top: 5%;
+    /* border: 2px solid blue; */
+    height: 613px;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+#imgdiv{
+    height:400px ;
+    width: 30%;
+    /* border: 1px solid rgb(81, 35, 35); */
+    float: left;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+}
+#contentdiv{
+    height: 400px;
+    width: 55%;
+    /* border: 1px solid orange; */
+    margin-left: 1%;
+    float: left;
+    background-color:oldlace;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+}
+#imgdiv img{
+    width: 100%;
+    height: 100%;
+}
+.starclass{
+    color:orange;
+    font-size: 12px;
+}
+.starclass1{
+    color: gray;
+    font-size: 12px;
+}
+.rupee{
+    font-size: 14px;
+}
+figure{
+    float: left;
+    margin: 8%;
+}
+.figure-container img{
+    height: 94px;
+    width: 100%;
+}
+.header{
+    color: rgb(240, 23, 59);
+    font-size: 30px;
+    margin-left: 1%;
+}
+h3{
+    color: #282c3f;
+    font-size: 30px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+span{
+    color: rgb(83, 254, 83);
+    font-size: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+h4{
+    color:rgb(68, 66, 66);
+    font-size: 18px;
+}
+

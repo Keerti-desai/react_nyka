@@ -1,0 +1,193 @@
+/*footer section*/
+footer{
+  
+    margin-top: 2%;
+    
+ 
+ }
+ .fapink{
+    color: #f63a5f;
+    font-size: 20px;
+    
+ }
+ .fapink{
+     object-fit: cover;
+     cursor: pointer;
+     transition: 0.2s ease;
+ }
+    
+ .fapink:hover{
+     transform: scale(2.04);
+ }
+ .fablue{
+     color: purple;
+     font-size: 20px;
+ }
+ .fablue{
+     object-fit: cover;
+     cursor: pointer;
+     transition: 0.2s ease;
+ }
+    
+ .fablue:hover{
+     transform: scale(2.04);
+ }
+ 
+ .spanclr{
+     font-weight: bold;
+     font-size: 20px;
+ }
+ .background-color{
+     background-color:rgb(140 141 148);
+ }
+ .white-text{
+     color: white;
+ }
+ 
+ /* Final Footer */
+ #final-footer{
+     height: 90px;
+     width: 100%;
+    /* border: 1px solid black;*/
+     margin-top: 1%;
+ }
+ .footer-end{
+     height: 60px;
+    /* border: 1px solid red;*/
+     background-color: #fc2779;
+ }
+ .ul li a{
+     text-decoration: none;
+ }
+ 
+ .end-footer{
+     justify-content: center;
+     display: flex;
+     margin-top: 1%;
+ } 
+ .footertext{
+     text-align: center;
+     background-color: #fc2779;
+     color: white;
+     font-weight: bold;
+ }
+ .end-footer a{
+     color: white;
+     font-weight: 600;
+ }
+ 
+ /*Media screen*/
+ @media only screen and (max-width:1400px){
+      /* body {
+        background-color: aqua  !important; 
+     }   */
+     .Logo { 
+         margin-left:23px;
+     }
+     .navbox {
+         margin-left:12%;
+     }
+     nav ul a{
+         margin-right: 37px;
+     }
+      #coupon{
+         margin-top:-404%;
+     }
+      
+     }
+     @media only screen and (max-width:1280px){
+           /* body {
+             background-color: rgb(243, 243, 143)  !important; 
+         }    */
+         .navbox {
+             margin-left:8% ;
+         }
+         .list-1{
+             font-size: 0.8rem;
+         }
+     }
+     
+ @media only screen and (max-width:1200px){
+         /* body {
+             background-color: palevioletred  !important; 
+         }   */
+           
+         nav ul a{
+             margin-right: 28px;
+         } 
+         .navbox{
+             display: none;
+         }
+         .search-box{
+             width: 41%;
+             margin-left: 52%;
+         }
+         #popupClose{
+             margin-top: 26%;
+         }
+ 
+         
+      @media only screen and (max-width:900px){
+         /* body {
+                background-color: rgb(89, 115, 50)  !important; 
+             }    */
+       .navbox{ 
+         display:none ;
+       }
+       .Logo{
+         width: 25%;
+       }
+       .search-box {
+         margin-left: 43%;
+       }
+       #box-images{
+         display: none;
+       }
+       .searchbtn {
+         right: 151PX;
+       }
+       .searchtext {
+         width: 56%;
+       }
+         
+     #crausal-header{
+         display: none;
+     }
+     
+     #Cercle-pic {
+         display: none;
+     }
+     
+    
+     .button {
+     width: 29%;
+     margin-left: 23px;
+ }
+     .Tinycontainer {
+ width: 91%;}
+     .small-container {
+ width: 97%;
+ }
+      p{
+       display: none;
+ }
+ 
+ .box-container{
+ margin-left:40.5%;
+ }
+ .iconbar{
+     display: none;
+ }
+ #image-container{
+     margin-top: -8%;
+ }
+  #coupon{
+     margin-top:-820%;
+ } 
+ #popupClose{
+     margin-top: 32%;
+ }
+ 
+ }
+ }
+     

@@ -1,0 +1,341 @@
+/*Land image css*/
+.heading{
+    text-align: center;
+    margin-top: 44px;
+    font-size: 25px;
+    font-weight:500;
+}
+#container-third{
+    height: 390px;
+    width: 80%;
+   /* border: 2px solid red; */
+    margin-left: 10%;
+}
+.containerbox-1{
+    height: 350px;
+    width: 45%;
+   /* border: 2px solid green; */
+    float: left;
+    margin: 1%;
+    margin-left: 3%;
+}
+.containerimg{
+    height: 280px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    animation:dance 5s infinite;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+
+}
+@keyframes dance{
+    0%{transform: rotate(-5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+}
+ 
+.containerimg img{
+    height: 100%;
+    width: 100%;
+}
+.containerimg-2{
+    height: 70px;
+    width: 100%;
+    border:2px solid #f63a5f;
+}
+.heading-1{
+    text-align: center;
+    margin-top: 2%;
+    color: #f63a5f;
+}
+/*Land section*/
+#single-img{
+    height: 250px;
+    width: 80%;
+     /* border:2px solid green;  */
+    margin-top: 3%;
+    margin-left: 10%;
+
+}
+.imagpic img{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+}
+.imagpic img{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.imagpic img:hover{
+    transform: scale(1.04);
+}/*Land image css*/
+#container-third{
+    height: 390px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 10%;
+}
+.containerbox-1{
+    height: 350px;
+    width: 45%;
+   /* border: 2px solid green; */
+    float: left;
+    margin: 1%;
+    margin-left: 3%;
+}
+.containerimg{
+    height: 280px;
+    width: 100%;
+   /* border: 2px solid blue; */
+    animation:dance 5s infinite;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+
+}
+@keyframes dance{
+    0%{transform: rotate(-5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+}
+ 
+.containerimg img{
+    height: 100%;
+    width: 100%;
+}
+.containerimg-2{
+    height: 70px;
+    width: 100%;
+    border:2px solid #f63a5f;
+}
+.heading-1{
+    text-align: center;
+    margin-top: 2%;
+    color: #f63a5f;
+}
+/*Land section*/
+#single-img{
+    height: 250px;
+    width: 80%;
+     /* border:2px solid green;  */
+    margin-top: 3%;
+    margin-left: 10%;
+
+}
+.imagpic img{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+}
+.imagpic img{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.imagpic img:hover{
+    transform: scale(1.04);
+}
+#Cercle-pic{
+    height: 250PX;
+    width: 100%;
+    /* border:2px solid green;   */
+    margin-top: 2%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+    
+}
+
+.cercle-img{
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    animation:dance 1s infinite;
+}
+@keyframes dance{
+    0%{transform: rotate(-5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(10deg);}
+}
+/*Land section*/
+#end-container{
+    height: 100px;
+    width: 80%;
+   /* border: 1px solid red; */
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.end-container-img img{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+}
+/*crausal Land section*/
+#crausal-header{
+    height: 80px;
+    width: 100%;
+   /* border: 2px solid blue; */
+    margin-top: 4%;
+
+}
+/*Land box section*/
+#box-images{
+    height: 300px;
+    width: 100%;
+     /* border: 2px solid green;  */
+    margin-top: 1%;
+}
+.box-container{
+    height: 250px;
+    width: 15%;
+    /* border: 1px solid red;  */
+    margin-top: 1%;
+    float: left;
+    margin-left: 1.5%;
+}
+.box-container{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.box-container:hover{
+    transform: scale(1.04);
+}
+
+@media only screen and (max-width:900px){
+    /* body {
+           background-color: rgb(89, 115, 50)  !important; 
+        }    */
+  .navbox{ 
+    display:none ;
+  }
+  .Logo{
+    width: 25%;
+  }
+  .search-box {
+    margin-left: 43%;
+  }
+  #box-images{
+    display: none;
+  }
+  .searchbtn {
+    right: 151PX;
+  }
+  .searchtext {
+    width: 56%;
+  }
+    
+#crausal-header{
+    display: none;
+}
+
+#Cercle-pic {
+    display: none;
+}
+
+
+.button {
+width: 29%;
+margin-left: 23px;
+}
+.Tinycontainer {
+width: 91%;}
+.small-container {
+width: 97%;
+}
+ p{
+  display: none;
+}
+
+.box-container{
+margin-left:40.5%;
+}
+.iconbar{
+display: none;
+}
+#image-container{
+margin-top: -8%;
+}
+#coupon{
+margin-top:-820%;
+} 
+#popupClose{
+margin-top: 32%;
+}
+
+}
+
+
+@media only screen and (max-width:900px){
+    /* body {
+           background-color: rgb(89, 115, 50)  !important; 
+        }    */
+  .navbox{ 
+    display:none ;
+  }
+  .Logo{
+    width: 25%;
+  }
+  .search-box {
+    margin-left: 43%;
+  }
+  #box-images{
+    display: none;
+  }
+  .searchbtn {
+    right: 151PX;
+  }
+  .searchtext {
+    width: 56%;
+  }
+    
+#crausal-header{
+    display: none;
+}
+
+#Cercle-pic {
+    display: none;
+}
+
+
+.button {
+width: 29%;
+margin-left: 23px;
+}
+.Tinycontainer {
+width: 91%;}
+.small-container {
+width: 97%;
+}
+ p{
+  display: none;
+}
+
+.box-container{
+margin-left:40.5%;
+}
+.iconbar{
+display: none;
+}
+#image-container{
+margin-top: -8%;
+}
+#coupon{
+margin-top:-820%;
+} 
+#popupClose{
+margin-top: 32%;
+}
+
+}
+
+
+

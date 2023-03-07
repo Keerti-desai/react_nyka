@@ -1,0 +1,76 @@
+/*Land image css*/
+#image-containerk{
+    height: 300px;
+    /*border: 2px solid black;*/
+    margin-top: 0%;
+    }
+    .image-container-2{
+        height: 250px;
+    /*border: 2px solid brown;*/
+    margin-top: 26px;
+    }
+
+    @media only screen and (max-width:900px){
+        /* body {
+               background-color: rgb(89, 115, 50)  !important; 
+            }    */
+      .navbox{ 
+        display:none ;
+      }
+      .Logo{
+        width: 25%;
+      }
+      .search-box {
+        margin-left: 43%;
+      }
+      #box-images{
+        display: none;
+      }
+      .searchbtn {
+        right: 151PX;
+      }
+      .searchtext {
+        width: 56%;
+      }
+        
+    #crausal-header{
+        display: none;
+    }
+    
+    #Cercle-pic {
+        display: none;
+    }
+    
+   
+    .button {
+    width: 29%;
+    margin-left: 23px;
+}
+    .Tinycontainer {
+width: 91%;}
+    .small-container {
+width: 97%;
+}
+     p{
+      display: none;
+}
+
+.box-container{
+margin-left:40.5%;
+}
+.iconbar{
+    display: none;
+}
+#image-container{
+    margin-top: -8%;
+}
+ #coupon{
+    margin-top:-820%;
+} 
+#popupClose{
+    margin-top: 32%;
+}
+
+}
+
+    
